@@ -1,3 +1,17 @@
+#Proto-Video
+
+Este proyecto prototipo es desarrollado utilizando React y creando una Fake API.
+
+## JSON Server para crear la Fake API 
+
+### npm install json-server -g
+
+Instalar de forma global JSON Server para crear nuestra FAKE API
+
+### json-server initialState.json
+
+Comando para consumir el archivo json y simular que es una API
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
