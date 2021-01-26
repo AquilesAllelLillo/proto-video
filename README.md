@@ -1,4 +1,4 @@
-#Proto-Video
+# Proto-Video
 
 Este proyecto prototipo es desarrollado utilizando React y creando una Fake API.
 
@@ -13,6 +13,12 @@ Instalar de forma global JSON Server para crear nuestra FAKE API
 ### npx json-server --watch initialState.json
 
 Comandos para consumir el archivo json y simular que es una API
+
+## Instalando Redux
+
+### npm install redux react-redux --save
+
+Comando para instalar Redux en nuestro proyecto
 
 # Getting Started with Create React App
 
