@@ -1,15 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import '../assets/styles/components/NotFound.scss';
 
 const NotFound = () => (
     <main className="bsod container">
       <h1 className="neg title"><span className="bg">Error - 404</span></h1>
-      <p>An error has occured, to continue:</p>
-      <p>* Return to our homepage.<br />
+      <p className="pNotFound">An error has occured, to continue:</p>
+      <p className="pNotFound">* Return to our homepage.<br />
       * Send us an e-mail about this error and try later.</p>
       <nav className="nav">
-        <a href="#" className="link">index</a>&nbsp;|&nbsp;<a href="#" className="link">webmaster</a>
+        <Link to="/" className="link">Index</Link>
+        &nbsp;|&nbsp;
+        <Link to="/" className="link">Webmaster</Link>
       </nav>
     </main>
 );
