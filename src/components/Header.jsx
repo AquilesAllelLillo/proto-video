@@ -25,7 +25,7 @@ const Header = props => {
   return (
     <header className={headerClass}>
 
-      <Link to="https://aquilesallellillo.github.io/proto-video/">
+      <Link to="/">
         <img className="header__img" src={logo} alt="Proto-Video"/>
       </Link>
 
@@ -39,17 +39,17 @@ const Header = props => {
         </div>
         <ul>
           {hasUser ?
-            <li><a href="https://aquilesallellillo.github.io/proto-video/">{user.name}</a></li> :
+            <li><a href="/">{user.name}</a></li> :
             null
           }
 
           {hasUser ? 
             <li><a href="#logout" onClick={handleLogout}>Cerrar Sesión</a></li>
             :
-            <li><Link to="https://aquilesallellillo.github.io/proto-video/login">Iniciar Sesión</Link></li>
+            <li><Link to="/login">Iniciar Sesión</Link></li>
           }
 
-          <li><Link to="https://aquilesallellillo.github.io/proto-video/register">Registrarse</Link></li>
+          <li><Link to="/register">Registrarse</Link></li>
         </ul>
       </div>
     </header>

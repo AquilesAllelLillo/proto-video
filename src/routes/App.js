@@ -12,10 +12,10 @@ const App = () => (
   <BrowserRouter>
     <Layout>
       <Switch>
-        <Route exact path="https://aquilesallellillo.github.io/proto-video/" component={ Home } />
-        <Route exact path="https://aquilesallellillo.github.io/proto-video/login" component={ Login } />
-        <Route exact path="https://aquilesallellillo.github.io/proto-video/register" component={ Register } />
-        <Route exact path="https://aquilesallellillo.github.io/proto-video/player/:id" component={ Player } />
+        <Route exact path="/" component={ Home } />
+        <Route exact path="/login" component={ Login } />
+        <Route exact path="/register" component={ Register } />
+        <Route exact path="/player/:id" component={ Player } />
         <Route component={ NotFound } />
       </Switch>
     </Layout>
