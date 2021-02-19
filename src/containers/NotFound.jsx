@@ -10,9 +10,9 @@ const NotFound = () => (
       <p className="pNotFound">* Return to our homepage.<br />
       * Send us an e-mail about this error and try later.</p>
       <nav className="nav">
-        <Link to="/" className="link">Index</Link>
+        <Link to="https://aquilesallellillo.github.io/proto-video/" className="link">Index</Link>
         &nbsp;|&nbsp;
-        <Link to="/" className="link">Webmaster</Link>
+        <Link to="https://aquilesallellillo.github.io/proto-video/" className="link">Webmaster</Link>
       </nav>
     </main>
 );

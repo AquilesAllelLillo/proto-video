@@ -57,7 +57,7 @@ const Register = props => {
             />
             <button className="button">Registrarme</button>
           </form>
-          <Link to="/login">
+          <Link to="https://aquilesallellillo.github.io/proto-video/login">
             Iniciar sesión
           </Link>
         </section>
