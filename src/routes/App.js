@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import Home from '../containers/Home';
 import Login from '../containers/Login';
@@ -9,7 +9,7 @@ import NotFound from '../containers/NotFound';
 import Layout from '../components/Layout';
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Layout>
       <Switch>
         <Route exact path="/" component={ Home } />
@@ -19,7 +19,7 @@ const App = () => (
         <Route component={ NotFound } />
       </Switch>
     </Layout>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
